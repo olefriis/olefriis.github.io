@@ -4,3 +4,5 @@ title: "My Time as a Human Being"
 description: "Computers, retro gaming, running, and baking. Probably not interesting to others, but I like putting words on my thoughts. Bear with me."
 
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
