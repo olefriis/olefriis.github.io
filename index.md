@@ -1,18 +1,14 @@
 ---
 layout: default
-title: "The upcoming blog of olefriis!"
+title: "My Time as a Human Being"
 ---
 
-## Nothing to see here yet
-
-Still reading the [Jekyll docs](https://jekyllrb.com/docs/)...
-
-<h1>Latest Posts</h1>
+<h2>Latest Posts</h2>
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt }}
     </li>
   {% endfor %}
