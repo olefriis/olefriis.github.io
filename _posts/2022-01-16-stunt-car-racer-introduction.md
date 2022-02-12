@@ -1,3 +1,6 @@
+---
+tag: Stunt Car Racer
+---
 # My Stunt Car Racer Obsession
 This is the first post in a series about some work I've done trying to bring the game Stunt Car Racer
 to modern platforms. Before going technical in the following posts, let me try to explain why I have

@@ -13,3 +13,5 @@ title: "My Time as a Human Being"
     </li>
   {% endfor %}
 </ul>
+
+...or browse by [tags](./tags).

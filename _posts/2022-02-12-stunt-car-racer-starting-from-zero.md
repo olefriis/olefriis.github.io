@@ -1,3 +1,6 @@
+---
+tag: Stunt Car Racer
+---
 # Stunt Car Racer: Starting From Zero
 Before starting work on making graphics, sound, and input work in the browser-based
 version of Stunt Car Racer, I needed a baseline: A point where everything compiles,
