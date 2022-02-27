@@ -6,6 +6,8 @@ This is the first post in a series about some work I've done trying to bring the
 to modern platforms. Before going technical in the following posts, let me try to explain why I have
 decided to spend time on this.
 
+Reading time: 5 minutes.
+
 ## What is Stunt Car Racer?
 You can of course read up on it yourself on [the Wikipedia page](https://en.wikipedia.org/wiki/Stunt_Car_Racer),
 but in short:

@@ -4,6 +4,8 @@ tag: Philosophy
 # Why Don't You Have Impostor Syndrome?!?
 Lately, mostly at the end of my summer vacation, I have been having quite a bit of impostor syndrome. It has gotten worse over the years, and it is quite annoying. I do not remember having to deal with that earlier in my career, so it got me thinking why this is the case. I've been talking with a few of my colleagues about impostor syndrome in order to get other people's views on it. Interestingly, about half of the people I've talked to about it also suffer from impostor syndrome, while the rest seem impervious to it, or only experience it very briefly and very seldom.
 
+Reading time: 5 minutes.
+
 ## What is it
 In short, impostor syndrome is an experience of feeling like a fraud - feeling like you don't belong in a certain setting, feeling unqualified for the work you are doing. It is related to anxiety. If you want to dive in, I recommend the [wikipedia page on impostor syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome). 70% of all Americans have dealt with it in some form.
 

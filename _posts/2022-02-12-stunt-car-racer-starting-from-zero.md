@@ -20,6 +20,7 @@ and DirectX APIs using standard C/C++ and OpenGL.
 Anyhow, before we get to the exciting stuff like drawing graphics on the screen,
 we need to have _something_ compiling. This post is about getting to that point.
 
+Reading time: 10 minutes.
 ## Initial Status
 Well, I started by installing [emscripten](https://emscripten.org) with Homebrew.
 As with most things Homebrew, this was straightforward. Now I could run the `emcc`
