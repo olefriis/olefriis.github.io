@@ -1,5 +1,7 @@
 ---
 tag: Stunt Car Racer
+title: Draw Something - Anything!
+excerpt: "Now we're finally at the stage where we can start drawing some proper 3D graphics. As we have seen before, emscripten allows us to use the OpenGL API in our C++ code base, and then it will automatically perform the mapping to WebGL to make it work in the browser. So to recap: The original C++ code uses the DirectX API, which we will implement as a layer on top of the OpenGL API, and then emscripten will convert all of that to WebGL in the browser. Nice and simple..."
 ---
 # Draw Something - Anything!
 Now we're finally at the stage where we can start drawing some proper 3D graphics. As we have
