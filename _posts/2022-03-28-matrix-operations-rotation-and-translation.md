@@ -87,116 +87,118 @@ In the rest of this article, we'll need to multiply vectors and matrices. You ca
 will spare you the trouble. Multiplying a two-dimensional vector and a 2x2 matrix results in a two-dimensional
 vector, and it goes like this:
 
-<math>
-  <mrow>
+<div style="width: 100%; overflow: auto;">
+  <math>
     <mrow>
-      <mo>[</mo>
-      <mi>x</mi>
-      <mo>,</mo>
-      <mi>y</mi>
-      <mo>]</mo>
+      <mrow>
+        <mo>[</mo>
+        <mi>x</mi>
+        <mo>,</mo>
+        <mi>y</mi>
+        <mo>]</mo>
+      </mrow>
+      <mo>&sdot;</mo>
+      <mrow>
+        <mo>[</mo>
+        <mtable>
+          <mtr>
+            <mtd columnalign="center">
+              <msub>
+                <mi>m</mi>
+                <mrow>
+                  <mn>1</mn>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+            </mtd>
+            <mtd columnalign="center">
+              <msub>
+                <mi>m</mi>
+                <mrow>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mrow>
+              </msub>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd columnalign="center">
+              <msub>
+                <mi>m</mi>
+                <mrow>
+                  <mn>2</mn>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+            </mtd>
+            <mtd columnalign="center">
+              <msub>
+                <mi>m</mi>
+                <mrow>
+                  <mn>2</mn>
+                  <mn>2</mn>
+                </mrow>
+              </msub>
+            </mtd>
+          </mtr>
+        </mtable>
+        <mo>]</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mo>[</mo>
+        <mtable>
+          <mtr>
+            <mtd>
+              <mi>x</mi>
+              <mo>&sdot;</mo>
+              <msub>
+                <mi>m</mi>
+                <mrow>
+                  <mn>1</mn>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <mi>y</mi>
+              <mo>&sdot;</mo>
+              <msub>
+                <mi>m</mi>
+                <mrow>
+                  <mn>2</mn>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo>,</mo>
+            </mtd>
+            <mtd>
+              <mi>x</mi>
+              <mo>&sdot;</mo>
+              <msub>
+                <mi>m</mi>
+                <mrow>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <mi>y</mi>
+              <mo>&sdot;</mo>
+              <msub>
+                <mi>m</mi>
+                <mrow>
+                  <mn>2</mn>
+                  <mn>2</mn>
+                </mrow>
+              </msub>
+            </mtd>
+          </mtr>
+        </mtable>
+        <mo>]</mo>
+      </mrow>
     </mrow>
-    <mo>&sdot;</mo>
-    <mrow>
-      <mo>[</mo>
-      <mtable>
-        <mtr>
-          <mtd columnalign="center">
-            <msub>
-              <mi>m</mi>
-              <mrow>
-                <mn>1</mn>
-                <mn>1</mn>
-              </mrow>
-            </msub>
-          </mtd>
-          <mtd columnalign="center">
-            <msub>
-              <mi>m</mi>
-              <mrow>
-                <mn>1</mn>
-                <mn>2</mn>
-              </mrow>
-            </msub>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd columnalign="center">
-            <msub>
-              <mi>m</mi>
-              <mrow>
-                <mn>2</mn>
-                <mn>1</mn>
-              </mrow>
-            </msub>
-          </mtd>
-          <mtd columnalign="center">
-            <msub>
-              <mi>m</mi>
-              <mrow>
-                <mn>2</mn>
-                <mn>2</mn>
-              </mrow>
-            </msub>
-          </mtd>
-        </mtr>
-      </mtable>
-      <mo>]</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow>
-      <mo>[</mo>
-      <mtable>
-        <mtr>
-          <mtd>
-            <mi>x</mi>
-            <mo>&sdot;</mo>
-            <msub>
-              <mi>m</mi>
-              <mrow>
-                <mn>1</mn>
-                <mn>1</mn>
-              </mrow>
-            </msub>
-            <mo>+</mo>
-            <mi>y</mi>
-            <mo>&sdot;</mo>
-            <msub>
-              <mi>m</mi>
-              <mrow>
-                <mn>2</mn>
-                <mn>1</mn>
-              </mrow>
-            </msub>
-            <mo>,</mo>
-          </mtd>
-          <mtd>
-            <mi>x</mi>
-            <mo>&sdot;</mo>
-            <msub>
-              <mi>m</mi>
-              <mrow>
-                <mn>1</mn>
-                <mn>2</mn>
-              </mrow>
-            </msub>
-            <mo>+</mo>
-            <mi>y</mi>
-            <mo>&sdot;</mo>
-            <msub>
-              <mi>m</mi>
-              <mrow>
-                <mn>2</mn>
-                <mn>2</mn>
-              </mrow>
-            </msub>
-          </mtd>
-        </mtr>
-      </mtable>
-      <mo>]</mo>
-    </mrow>
-  </mrow>
-</math>
+  </math>
+</div>
 
 Similarly, multiplying a three-dimensional vector with a 3x3 matrix goes like this:
 
@@ -799,121 +801,125 @@ adding a constant to the initial coordinates. What to do?
 The solution may not seem very straightforward, but what if we add another dimension to our 2D vector and
 start using 3D vectors and 3x3 matrices? If we always put a 1 at the third coordinate in our vector, then
 we have a well-defined constant that our matrix multiplication can make use of:
-<math>
-  <mrow>
+
+<div style="width: 100%; overflow: auto;">
+  <math>
     <mrow>
-      <mo>[</mo>
-      <msub>
-        <mi>x</mi>
+      <mrow>
+        <mo>[</mo>
+        <msub>
+          <mi>x</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>,</mo>
+        <msub>
+          <mi>y</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>,</mo>
         <mn>1</mn>
-      </msub>
-      <mo>,</mo>
-      <msub>
-        <mi>y</mi>
-        <mn>1</mn>
-      </msub>
-      <mo>,</mo>
-      <mn>1</mn>
-      <mo>]</mo>
-    </mrow>
-    <mo>&sdot;</mo>
-    <mrow>
-      <mo>[</mo>
-      <mtable>
-        <mtr>
-          <mtd columnalign="center">
-            <mn>1</mn>
-          </mtd>
-          <mtd columnalign="center">
-            <mn>0</mn>
-          </mtd>
-          <mtd columnalign="center">
-            <mn>0</mn>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd columnalign="center">
-            <mn>0</mn>
-          </mtd>
-          <mtd columnalign="center">
-            <mn>1</mn>
-          </mtd>
-          <mtd columnalign="center">
-            <mn>0</mn>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd columnalign="center">
-            <mi>a</mi>
-          </mtd>
-          <mtd columnalign="center">
-            <mi>b</mi>
-          </mtd>
-          <mtd columnalign="center">
-            <mn>1</mn>
-          </mtd>
-        </mtr>
-      </mtable>
-      <mo>]</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow>
-      <mo>[</mo>
-      <mtable>
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>x</mi>
+        <mo>]</mo>
+      </mrow>
+      <mo>&sdot;</mo>
+      <mrow>
+        <mo>[</mo>
+        <mtable>
+          <mtr>
+            <mtd columnalign="center">
               <mn>1</mn>
-            </msub>
-            <mo>+</mo>
-            <mi>a</mi>
-            <mo>,</mo>
-          </mtd>
-          <mtd>
-            <msub>
-              <mi>y</mi>
+            </mtd>
+            <mtd columnalign="center">
+              <mn>0</mn>
+            </mtd>
+            <mtd columnalign="center">
+              <mn>0</mn>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd columnalign="center">
+              <mn>0</mn>
+            </mtd>
+            <mtd columnalign="center">
               <mn>1</mn>
-            </msub>
-            <mo>+</mo>
-            <mi>b</mi>
-            <mo>,</mo>
-          </mtd>
-          <mtd>
-            <mn>1</mn>
-          </mtd>
-        </mtr>
-      </mtable>
-      <mo>]</mo>
+            </mtd>
+            <mtd columnalign="center">
+              <mn>0</mn>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd columnalign="center">
+              <mi>a</mi>
+            </mtd>
+            <mtd columnalign="center">
+              <mi>b</mi>
+            </mtd>
+            <mtd columnalign="center">
+              <mn>1</mn>
+            </mtd>
+          </mtr>
+        </mtable>
+        <mo>]</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mo>[</mo>
+        <mtable>
+          <mtr>
+            <mtd>
+              <msub>
+                <mi>x</mi>
+                <mn>1</mn>
+              </msub>
+              <mo>+</mo>
+              <mi>a</mi>
+              <mo>,</mo>
+            </mtd>
+            <mtd>
+              <msub>
+                <mi>y</mi>
+                <mn>1</mn>
+              </msub>
+              <mo>+</mo>
+              <mi>b</mi>
+              <mo>,</mo>
+            </mtd>
+            <mtd>
+              <mn>1</mn>
+            </mtd>
+          </mtr>
+        </mtable>
+        <mo>]</mo>
+      </mrow>
+      <mo>=</mo>
+      <mrow>
+        <mo>[</mo>
+        <mtable>
+          <mtr>
+            <mtd>
+              <msub>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msub>
+              <mo>,</mo>
+            </mtd>
+            <mtd>
+              <msub>
+                <mi>y</mi>
+                <mn>2</mn>
+              </msub>
+              <mo>,</mo>
+            </mtd>
+            <mtd>
+              <mn>1</mn>
+            </mtd>
+          </mtr>
+        </mtable>
+        <mo>]</mo>
+      </mrow>
     </mrow>
-    <mo>=</mo>
-    <mrow>
-      <mo>[</mo>
-      <mtable>
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>x</mi>
-              <mn>2</mn>
-            </msub>
-            <mo>,</mo>
-          </mtd>
-          <mtd>
-            <msub>
-              <mi>y</mi>
-              <mn>2</mn>
-            </msub>
-            <mo>,</mo>
-          </mtd>
-          <mtd>
-            <mn>1</mn>
-          </mtd>
-        </mtr>
-      </mtable>
-      <mo>]</mo>
-    </mrow>
-  </mrow>
-</math>
+  </math>
+</div>
+
 Try to do the math yourself and see if you arrive at the same result.
 
 This is nice! We just add a third component, always set it to 1, and when multiplying our vector

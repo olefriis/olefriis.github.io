@@ -20,7 +20,9 @@ but in short:
 
 You can get an idea of what the game is like by watching this video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wWCZ7lP1u6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="width: 100%; overflow: auto;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wWCZ7lP1u6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Why Rebuild Stunt Car Racer?
 When I originally played the game, I was amazed and fascinated. I loved the 3D aestetics and the whole
