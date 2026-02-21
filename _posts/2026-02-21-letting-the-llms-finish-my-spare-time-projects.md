@@ -11,7 +11,7 @@ can do. I don't want to jump into all the apocalyptic talk about them taking "ou
 nothing to add to that, but I want to share what I've been using LLMs for in my spare time recently.
 
 So, I have had this ongoing project for many, many years of
-[recreating Stunt Car Racer](./2022/01/16/stunt-car-racer-introduction.md), but it's been lying dormant for
+[recreating Stunt Car Racer](/2022/01/16/stunt-car-racer-introduction.md), but it's been lying dormant for
 (checking git commit log) almost four years. Problem was, I had done the most interesting technical aspects
 of the game, like getting it building with Emscripten and getting the graphics, sound, and input working.
 It was a playable game.
