@@ -3,7 +3,7 @@ title: "Letting the LLMs Finish My Spare Time Projects"
 tags: 
  - Stunt Car Racer
  - LLMs
-excerpt: "In the last post, we looked into the matrix math you can use to move and rotate objects in your 3D game. Now we only need to, erm, put things into perspective."
+excerpt: "Now, with this machine uprising in the form of LLMs, I thought that I would do my part of keeping the machines busy a while finishing the game. You can thank me later."
 ---
 # Letting the LLMs Finish My Spare Time Projects
 Like most other software developers these days, I've been blown away by what modern Large Language Models
