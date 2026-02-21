@@ -79,7 +79,7 @@ each division. As you can see, the new graphics does not really resemble the ori
 a little afraid of using the original graphics in this remake because it may make people upset, but given
 the original game came out in 1989 (37 years ago???), maybe I shouldn't worry too much.
 
-## Lots of internals
+## Lots of Internals
 Those are the visible changes made by Claude. In the process, the code has been restructured to revolve
 around JavaScript instead of being driven by the C++ code. This has made it easier to add new menus, and
 stuff like the tournament logic doesn't have to live in C++. I like these changes!
@@ -95,7 +95,7 @@ other Stunt Car Racer projects have moved along as well during that time:
   worked on. This looks really amazing!
 * Watch [this very interesting walk-through of the game's history and some of its physics](https://www.youtube.com/watch?v=hcmSBwLKVOY).
 
-## More work to do!
+## More Work to Do!
 There's still more to do, and I'm enjoying getting Claude to work on this project in the evenings. Off
 the top of my head, I still need to do this:
 * Some kind of in-game "car overlay", like in the original game. Making it feel like you're in a real
