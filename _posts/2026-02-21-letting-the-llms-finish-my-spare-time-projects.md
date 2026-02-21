@@ -61,7 +61,7 @@ Also, why not make it a real Progressive Web App? That's another tedious task, b
 up for it. So now you can click an "Install" button on Android or add the web page the home screen on iOS,
 and you get a beautiful, auto-updating, full-screen experience on mobile!
 
-## Tournament mode
+## Tournament Mode
 The original game has the "tournament mode", in which the player races against various opponents in order
 to get promoted from Division 4 to Division 1:
 
