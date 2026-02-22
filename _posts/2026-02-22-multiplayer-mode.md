@@ -102,3 +102,5 @@ two Amigas with a serial cable.
 
 In other words, it may not be perfect by a lot of measures, but it works, and was just
 the last thing missing. I love it!
+
+As always, [go ahead and play the game!](https://olefriis.github.io/play/)
