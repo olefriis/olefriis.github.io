@@ -42,7 +42,7 @@ Claude investigated the original Amiga source code and came up with these additi
 metrics for "Super League":
 * Engine power goes from 240 to 320 (in whatever units we use).
 * There's "road cushion", which means the car has to smash harder at the track before
-  taking damage. Otherwise, with 33% more engine power in the Super League, cars would
+  taking damage. Otherwise, with 50% more engine power in the Super League, cars would
   be wrecked too soon.
 * "Boost Unit Value" goes from 16 to 12, meaning boost burns 25% faster.
 
